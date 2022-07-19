@@ -1,0 +1,41 @@
+body{
+    background-color:rgb(214, 166, 166);
+    font-family: open sans;
+    font-size:14px;
+}
+
+section{
+    text-align:center;
+}
+section h3{
+    text-shadow: 1px 1px 1px red;
+}
+
+figure{
+    border:2px solid darkred;
+    width:500px;
+    display:inline-block;
+    margin:5px;
+    border-radius: 5px;
+    box-shadow:  0px 0px 16px darkred;
+}
+
+figure:hover figcaption{
+color:yellow;
+cursor:pointer;
+background-color:aqua;
+border-radius:15px;
+box-shadow:0px 0px 16px red
+}
+
+figure img{
+    width:400px;
+    height:300px;
+    border-radius:20px
+}
+
+figcaption{
+    padding:10px;
+    margin:10px;
+    color:darkred
+}

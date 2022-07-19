@@ -1,0 +1,60 @@
+p{
+    font-family: 'Open Sans', sans-serif;
+    font: size 26px; 
+    font-weight: 300;
+
+}
+
+ div{
+    font-family: Arial, Helvetica, sans-serif;
+    background:rgb(10, 216, 120) ;
+    background-size: cover;
+    font-size: 30px;
+    font-weight:bolder;
+    border: 3px solid red;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgb(194, 34, 34);
+    border-radius:20px;
+    
+} 
+
+.static{
+    position: static;
+    left:100px ;
+    /* it will not shift as it is static with normal document flow */
+}
+.relative{
+    position: relative;
+    left:400px;
+    /* top: 500px; */
+    /* but here as position is relative it can be move anywhere */
+}
+
+
+.ancestor{
+    width:500px;
+    height:400px;
+    position: relative;
+    left:400px;
+    top:200px;
+}
+
+ .absolute {
+position: absolute;
+left:400px;
+top:600px; 
+} 
+
+.fixed{
+    position:fixed;
+    top:0px;
+    right:0px;
+
+}
+
+.sticky{
+    width:50%;
+    top:0px;
+    position:sticky
+}

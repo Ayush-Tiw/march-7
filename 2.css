@@ -1,0 +1,20 @@
+.heading-text,h1{
+text-align: center;
+text-decoration: overline;
+text-transform: uppercase;
+}
+
+.normal-list{
+    letter-spacing:4px;
+    word-spacing: 4px;
+    line-height: 50px;
+    color:hsl(0, 97%, 48%);
+    font-size:12px;
+}
+
+/* hsl=>
+hue =>green color
+saturation=>50% green and not green
+ lightness=>light shades of your green color */
+
+ 
